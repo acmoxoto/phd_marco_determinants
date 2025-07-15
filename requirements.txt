@@ -1,0 +1,19 @@
+Packages needd to run the notebooks in this repository
+esg_scoring: numpy, re, cleantext import clean # install via: pip install clean-text
+             pandas, csv
+
+fuzzy_clustering: First run: !pip install fuzzy-c-means !pip install geopandas
+            import pandas, numpy, from sklearn.manifold import TSNE, 
+                                       fcmeans import FCM
+                                       from sklearn.preprocessing import StandardScaler
+            import matplotlib.pyplot as plt
+            import seaborn as sns
+k_means: sklearn.decomposition import PCA #Principal Component Analysis
+            from sklearn.manifold import TSNE     #T-Distributed Stochastic Neighbor Embedding
+                 sklearn.cluster import KMeans    #K-Means Clustering
+                 sklearn.preprocessing import StandardScaler #used for 'Feature Scaling'
+
+            #plotly imports
+            import plotly as py
+                   plotly.graph_objs as go
+            from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
