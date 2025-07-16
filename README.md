@@ -8,10 +8,12 @@ Qwen3-235B-A22B: Generate a GitHub file structure to put experimental works of a
 
 
 Thinking completed: 38,912 tokens budget
-Here’s a proposed GitHub file structure for the PhD project, organized to clarify experimental workflows and documentation. Each folder includes a README.md to describe its contents, citing relevant sources where applicable:
+Here’s a proposed GitHub file structure for the PhD project, organized to clarify experimental workflows and 
+documentation. Each folder includes a README.md to describe its contents, citing relevant sources where applicable:
 
-GitHub File Structure
+GitHub File Structure:
 
+```
 phd-ico-macro-determinants/
 ├── README.md                      # Project overview, objectives, and dependencies
 ├── requirements.txt               # Python/R libraries and versions used
@@ -25,7 +27,7 @@ phd-ico-macro-determinants/
 │   ├── esg_scoring/
 │   │   ├── notebook.ipynb         # Code for ESG score calculation (scraping, NLP, scoring logic)
 │   │   ├── data/                  # Scraped ICO project data (whitepapers, team info)
-│   │   └── README.md              # Description of ESG methodology and relevance to ICO adoption
+│   │   └── README.md              # Description of ESG methodology and relevance to ICO adoption 
 │   ├── fuzzy_clustering/
 │   │   ├── notebook.ipynb         # FCM implementation (clustering macro-determinants like GDP, education)
 │   │   ├── results/               # Cluster labels, silhouette scores, visualizations
@@ -33,10 +35,11 @@ phd-ico-macro-determinants/
 │   └── tsne_visualization/
 │       ├── notebook.ipynb         # t-SNE for dimensionality reduction of high-dimensional ICO data
 │       ├── results/               # 2D/3D plots of clusters, perplexity optimization
-│       └── README.md              # t-SNE parameterization and insights into ICO pattern recognition
+│       └── README.md              # t-SNE parameterization and insights into ICO pattern recognition 
 ├── results/
 │   ├── esg_scores_summary.csv     # Aggregated ESG scores for ICO projects
 │   ├── cluster_analysis.png       # FCM cluster visualizations
 │   └── tsne_visualizatoin_fuzzy_c-means_2d.html    # Interactive t-SNE plots for exploration
 └── paper_drafts/
     └── methodology.pdf            # Detailed description of experimental design and theoretical framework
+```
